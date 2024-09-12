@@ -1,51 +1,69 @@
----
-layout: default
-title: Rui's Web, Need to Build
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Space Explorer</title>
+    <title>Sophia - Space Explorer</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <canvas id="starfield"></canvas>
     <div class="container">
         <header>
-            <img src="XUERUI.jpg" alt="Your Name" class="profile-pic">
+            <img src="XUERUI.jpg" alt="Sophia" class="profile-pic">
             <h1>Sophia</h1>
-            <p>Software Engineer & Space Enthusiast</p>
+            <p class="tagline">Software Engineer & Space Enthusiast</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </header>
         <main>
             <section id="about">
-                <h2>About Me</h2>
+                <h2><i class="fas fa-user-astronaut"></i> About Me</h2>
                 <p>Greetings, earthling! I'm a passionate developer exploring the vast universe of code. When I'm not crafting elegant solutions, you can find me stargazing or planning my next interstellar journey.</p>
+                <div class="skills">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Machine Learning</span>
+                </div>
             </section>
             <section id="projects">
-                <h2>Cosmic Projects</h2>
+                <h2><i class="fas fa-rocket"></i> Cosmic Projects</h2>
                 <div class="project-grid">
                     <div class="project">
+                        <i class="fas fa-cloud project-icon"></i>
                         <h3>Project Nebula</h3>
                         <p>A cloud-based solution for intergalactic communication.</p>
+                        <a href="#" class="project-link">Learn More</a>
                     </div>
                     <div class="project">
+                        <i class="fas fa-atom project-icon"></i>
                         <h3>Quantum Leap</h3>
                         <p>Revolutionizing space travel with quantum computing.</p>
+                        <a href="#" class="project-link">Learn More</a>
                     </div>
                     <div class="project">
+                        <i class="fas fa-language project-icon"></i>
                         <h3>Martian Translator</h3>
                         <p>Breaking the language barrier between humans and Martians.</p>
+                        <a href="#" class="project-link">Learn More</a>
                     </div>
                 </div>
             </section>
         </main>
-        <footer>
-            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
-            <a href="mailto:xuerui160@126.com">Email</a>
+        <footer id="contact">
+            <h2><i class="fas fa-paper-plane"></i> Let's Connect</h2>
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:xuerui160@126.com"><i class="fas fa-envelope"></i></a>
+            </div>
         </footer>
     </div>
     <div class="astronaut">
